@@ -6,9 +6,12 @@ To compile on Perlmutter (NERSC) follow the steps below
 module load PrgEnv-gnu/8.5.0
 module load cudatoolkit/12.2
 ```
-2. Do `source ~/.bash_profile`
+2. Do 
+```
+source ~/.bash_profile
+```
 
-2. Then do
+2. Do
 ```
 make
 ```
