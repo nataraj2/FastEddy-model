@@ -26,8 +26,7 @@ make
 7. Do
 ```
 	tar xvf Moist_BOMEX.tar.gz
-	cd Moist_BOMEX/BOMEX_IC
-	cp FE_BOMEX.0 initial
+	cp Moist_BOMEX/BOMEX_IC/FE_BOMEX.0 initial
 ```
 8. `salloc --nodes 1 --qos interactive --time 01:00:00 --constraint gpu --gpus 4 --account=xxxx`
 
