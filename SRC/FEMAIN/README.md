@@ -11,6 +11,7 @@
 2. `cd SRC/FEMAIN`
 
 To compile on Perlmutter (NERSC) follow the steps below
+
 3. Add these modules and options in `~/.bash_profile`
 ```
 module load PrgEnv-gnu/8.5.0
