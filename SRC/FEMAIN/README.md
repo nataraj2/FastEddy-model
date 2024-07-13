@@ -1,7 +1,9 @@
 # Compilation and running on Perlmutter GPUs
 
 1. Get FastEddy code from GitHub by
-```git clone https://github.com/nataraj2/FastEddy-model.git
+
+```
+   git clone https://github.com/nataraj2/FastEddy-model.git
    cd FastEddy-model
    git checkout FE_perlmutter
 ```
