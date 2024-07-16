@@ -42,3 +42,9 @@ Replace `xxxx` with the account code.
  
 `srun -n 1 -G 4 FastEddy Example04_BOMEX.in`
 
+
+If the following error occurs on running 
+```
+MPIDI_CRAY_init: GPU_SUPPORT_ENABLED is requested, but GTL library is not linked (Other MPI error)
+```
+then do `export MPICH_GPU_SUPPORT_ENABLED=0` and re-run.
